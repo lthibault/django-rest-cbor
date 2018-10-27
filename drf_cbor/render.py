@@ -10,6 +10,9 @@ class CBORRenderer(BaseRenderer):
     media_type = 'application/cbor'
     format = 'cbor'
     charset = None
+    render_style = 'binary'
 
     def render(self, data, *args, **kwargs):
+        if data is None:
+            return ''
         return cbor.dumps(data)
