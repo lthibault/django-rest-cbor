@@ -13,4 +13,4 @@ class CBORParser(BaseParser):
     def parse(self, stream, media_type=None, parser_context=None):
         """parse the incoming bytestream as CBOR and returns the resulting data
         """
-        return cbor.loads(stream.read())
+        return cbor.load(stream)
