@@ -7,7 +7,7 @@ setup(
     version='1.0.0',
     description='Django Rest Framework CBOR Renderer & Parser',
     author='lthibault',
-    url='https://github.com/gizmag/django-rest-cbor',
+    url='https://github.com/lthibault/django-rest-cbor',
     packages=find_packages(),
     install_requires=['django', 'cbor2', 'djangorestframework']
 )
