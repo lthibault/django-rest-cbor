@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-rest-cbor',
-    version='0.0.0',
+    version='0.0.1',
     description='Django Rest Framework CBOR Renderer & Parser',
     author='lthibault',
     url='https://github.com/lthibault/django-rest-cbor',
